@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: rgb(161, 47, 47);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-parent {
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 3rem;
+}
